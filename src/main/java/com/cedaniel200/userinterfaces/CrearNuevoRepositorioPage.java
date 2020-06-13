@@ -10,6 +10,12 @@ public class CrearNuevoRepositorioPage {
     public static final Target DESCRIPCION_REPOSIOTRIO = Target.the("Campo descripcion del repositorio")
             .located(By.id("repository_description"));
 
+    public static final Target REPOSITORIO_PUBLICO = Target.the("Repositorio publico")
+            .located(By.id("repository_visibility_public"));
+
+    public static final Target REPOSITORIO_PRIVADO = Target.the("Repositorio privado")
+            .located(By.id("repository_visibility_private"));
+
     public static final Target INICIALIZAR_REPOSITORIO_CON_README = Target
             .the("Iniciar repositorio con README")
             .located(By.id("repository_auto_init"));
